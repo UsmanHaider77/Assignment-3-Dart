@@ -7,12 +7,12 @@
       "Language": "Urdu",
     },
     "Italy": {
-      "Capital City": "Rome.",
+      "Capital City": "Rome",
       "Currency": "Euro",
       "Language": "Italian",
     },
     "Germany": {
-      "Capita lCity": "Berlin",
+      "Capital City": "Berlin",
       "Currency": "Euro",
       "Language": "German",
     },
