@@ -1,13 +1,16 @@
 
-  void main(){
-List<int> numbers = [15,10,20,35,55,70,90,110];
-    if (numbers.isNotEmpty) {
-      int greatest = numbers.reduce((current, next) => current > next ? current : next);
-      int smallest = numbers.reduce((current, next) => current < next ? current : next);
-      print("List of Numbers : $numbers");
-      print("Greatest Number : $greatest");
-      print("Smallest Number : $smallest");
-    } else {
-       print("The List is Empty");
+void main() {
+  List<int> numbers = [12,53,90,40,30,15,18];
+  int smallest = numbers[0];
+  int greatest = numbers[0];
+  for (int number in numbers) {
+    if (number > greatest) {
+      greatest = number;
+    }else if (number < smallest) {
+      smallest = number;
     }
   }
+  print("Numbers List: $numbers");
+  print("Greatest number: $greatest");
+  print("Smallest number: $smallest");
+}
